@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Datasets and raw data (over 100,000 files)
+data/
+*.csv
+!outputs/model_results.csv
+
+# Large ML / Deep Learning model checkpoints and weights
+# Note: files > 100MB (like random_forest.pkl) are blocked by GitHub.
+# Run 'python main.py' to generate or train models locally.
+models/*.pkl
+models/*.keras
+models/*.model
+
+# Keep models directory structure
+!models/.gitkeep
